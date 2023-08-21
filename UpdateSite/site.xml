@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="MER">
+      MER (Modeling Event Recorder) is an Eclipse plugin that captures and serializes modeling events from Sirius graphical editor sessions in the XES standard log format. The plugin records user interactions, changes, and actions performed within the Sirius graphical editor, allowing you to analyze and gain insights into the modeling process.
+   </description>
+   <feature url="features/MER_1.0.0.202308211451.jar" id="MER" version="1.0.0.202308211451">
+      <category name="MER"/>
+   </feature>
+   <category-def name="MER" label="MER"/>
+</site>

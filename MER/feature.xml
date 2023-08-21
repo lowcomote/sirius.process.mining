@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="MER"
+      label="MER"
+      version="1.0.0.qualifier">
+
+   <description url="https://github.com/lowcomote/sirius.process.mining">
+      MER (Modeling Event Recorder) is an Eclipse plugin that captures and serializes modeling events from Sirius graphical editor sessions in the XES standard log format. The plugin records user interactions, changes, and actions performed within the Sirius graphical editor, allowing you to analyze and gain insights into the modeling process.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="https://github.com/lowcomote/sirius.process.mining/blob/master/LICENSE">
+      Eclipse Public License 2.0
+   </license>
+
+   <plugin
+         id="ProcessMining"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="EcoreXES"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
