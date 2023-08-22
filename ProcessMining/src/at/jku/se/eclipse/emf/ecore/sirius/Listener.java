@@ -44,7 +44,7 @@ public class Listener {
 		recorder.beginRecording(Collections.singleton(resourceSet));
 	}
 
-	public void serializeLog() {
+	public String serializeLog() {
 		log.add(trace);
 		XesXmlSerializer serializer = new XesXmlSerializer();
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH.mm");
@@ -72,6 +72,7 @@ public class Listener {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		return file.getAbsolutePath();
 	}
 
 	public ChangeDescription saveXMI(String path) {

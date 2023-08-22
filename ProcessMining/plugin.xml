@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.4"?>
 <plugin>
-   <extension
-         point="org.eclipse.sirius.sessionManagerListener">
-      <listener
-            class="at.jku.se.eclipse.emf.ecore.sirius.SessionManager">
-      </listener>
+   
+   <category
+            id="test.commands.category"
+            name="Sample Category">
+      </category>
+      <command
+            categoryId="test.commands.category"
+            id="org.example.myproject.command.id"
+            name="Sample Command">
+      </command>
+    <extension point="org.eclipse.ui.menus">
+    <menuContribution
+          allPopups="false"
+          locationURI="toolbar:org.eclipse.sirius.diagram.ui.tabbar?after=additions">
+        <command
+              commandId="org.example.myproject.command.id"
+              icon="icons/MER.png"
+              style="push"
+              id="org.eclipse.sirius.diagram.tabbar.test.action.on.diagramelement"
+              label="Record Log"
+              tooltip="Record Log">
+</command>
+    </menuContribution>
+ </extension>
+ <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="at.jku.se.eclipse.emf.ecore.menu.MERHandler"
+            commandId="org.example.myproject.command.id">
+      </handler>
    </extension>
 
 </plugin>
