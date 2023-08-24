@@ -9,6 +9,9 @@ MER (Modeling Event Recorder) is an Eclipse plugin that captures and serializes 
 - Export and save event logs to the metadata folder in the Elipse workspace.
 
 ## Installation and Usage
+MER is now available on Eclipse Marketplace. Watch the tutorial video for more info.
+
+[![MER Plugin Installation and Tutorial](https://i.vimeocdn.com/video/1714600721-7b7ee922f3ef6ff387cb5da9c4a8ff906fe16f1fc100dc8058e741d183b5aa46-d_295x166.jpg)](https://vimeo.com/857471333)
 
 ### Prerequisites
 
